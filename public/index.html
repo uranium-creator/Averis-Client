@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0910">
+    <meta name="description" content="Averis Client — Minecraft 1.16.5 üçün pulsuz client. Yüklə, qoşul və community ilə söhbət et.">
+    <title>Averis Client — Oyuna öz izini qoy</title>
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#" aria-label="Averis ana səhifə">
+          <img src="/images/logo.png" alt="" width="42" height="42">
+          <span>AVERIS<span class="brand-client">CLIENT</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Əsas menyu">
+          <a href="#features">Xüsusiyyətlər</a>
+          <a href="#about">Haqqında</a>
+          <a href="https://discord.gg/QJvdN7U9gP" target="_blank" rel="noreferrer">Discord ↗</a>
+        </nav>
+        <a class="header-download" href="/downloads/AverisClient-1.16.5.jar" download>
+          <span>↓</span> Yüklə
+        </a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-art" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> MINECRAFT 1.16.5 ÜÇÜN</p>
+            <h1>Oyuna öz<br><span>izini qoy.</span></h1>
+            <p class="hero-copy">Averis Client ilə oyunun ritmini özün müəyyən et. PvP üçün hazırlanmış rahat alətlər, təmiz görünüş və aktiv community — hamısı bir yerdə.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="/downloads/AverisClient-1.16.5.jar" download>
+                <span class="button-icon">↓</span> Pulsuz yüklə
+              </a>
+              <button class="button button-quiet" type="button" data-open-chat>
+                <span class="chat-bubble-icon">◌</span> Community chat
+              </button>
+            </div>
+            <div class="hero-meta">
+              <span><i class="status-dot"></i> Pulsuz və açıq</span>
+              <span class="meta-divider"></span>
+              <span>Minecraft Java Edition</span>
+            </div>
+          </div>
+          <div class="hero-mark" aria-hidden="true">
+            <img src="/images/logo.png" alt="">
+            <span>AV</span>
+          </div>
+          <a class="scroll-cue" href="#features"><span></span> AŞAĞI KEÇ</a>
+          <div class="hero-index" aria-hidden="true">01 <span>/ 03</span></div>
+        </section>
+
+        <section class="features section-wrap" id="features">
+          <div class="section-heading">
+            <p class="eyebrow">SƏNİN OYUNUN, SƏNİN QAYDALARIN</p>
+            <h2>Hər detal <span>öz yerində.</span></h2>
+            <p>Averis oyun təcrübəni daha rahat və özünə uyğun etmək üçün yaradılıb.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-number">01</span>
+              <div class="feature-icon icon-crosshair" aria-hidden="true">⌖</div>
+              <h3>PvP üçün hazır</h3>
+              <p>Döyüş anlarında fokusunu qoru və öz oyun tərzini tap.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">02</span>
+              <div class="feature-icon icon-spark" aria-hidden="true">✳</div>
+              <h3>Səliqəli interfeys</h3>
+              <p>Diqqətini oyunda saxlayan, zövqlə hazırlanmış görünüş.</p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-number">03</span>
+              <div class="feature-icon icon-community" aria-hidden="true">⌘</div>
+              <h3>Birlikdə daha yaxşı</h3>
+              <p>Community ilə tanış ol, sual ver və oyun haqqında danış.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="preview-section">
+          <div class="preview-copy">
+            <p class="eyebrow">AVERIS CLIENT 1.16.5</p>
+            <h2>Sadə görünür.<br><span>Güclü hiss olunur.</span></h2>
+            <p>Hər şey oyunun içində rahatlıqla istifadə etmək üçün qurulub. Öz stilini seç, oyuna qayıt.</p>
+          </div>
+          <img class="client-preview" src="/images/averis.png" alt="Averis Client interfeysinin önizləməsi" loading="lazy">
+        </section>
+
+        <section class="download-section" id="about">
+          <div class="download-glow" aria-hidden="true"></div>
+          <div class="download-inner">
+            <div>
+              <p class="eyebrow">MACƏRƏYƏ BAŞLA</p>
+              <h2>Averis-i indi<br><span>kəşf et.</span></h2>
+              <p class="download-copy">Minecraft Java Edition 1.16.5 üçün. Pulsuz yüklə və community-yə qoşul.</p>
+            </div>
+            <div class="download-card">
+              <div class="download-card-top">
+                <img src="/images/logo.png" alt="" width="54" height="54">
+                <div><strong>Averis Client</strong><span>Versiya 1.16.5</span></div>
+              </div>
+              <a class="button button-primary download-full" href="/downloads/AverisClient-1.16.5.jar" download>
+                <span class="button-icon">↓</span> Client-i yüklə
+              </a>
+              <p class="download-note">Pulsuz • Minecraft Java Edition tələb olunur</p>
+            </div>
+          </div>
+          <div class="download-outline" aria-hidden="true">AVERIS</div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="brand footer-brand" href="#">
+          <img src="/images/logo.png" alt="" width="32" height="32">
+          <span>AVERIS<span class="brand-client">CLIENT</span></span>
+        </a>
+        <p>Oyuna öz izini qoy.</p>
+        <span class="copyright">© 2026 Averis Client</span>
+      </footer>
+    </div>
+
+    <button class="chat-fab" type="button" data-open-chat aria-label="Community chat-i aç">
+      <span class="chat-bubble-icon">◌</span><span>CHAT</span><i class="fab-dot"></i>
+    </button>
+
+    <section class="chat-panel" id="chat-panel" role="dialog" aria-modal="true" aria-labelledby="chat-title" aria-hidden="true">
+      <div class="chat-header">
+        <div class="chat-heading">
+          <span class="chat-avatar"><img src="/images/logo.png" alt=""></span>
+          <div><h2 id="chat-title">Averis Community</h2><span class="chat-presence"><i class="status-dot" id="chat-status-dot"></i><span id="chat-status">Bağlantı yoxlanılır</span></span></div>
+        </div>
+        <button class="chat-close" type="button" data-close-chat aria-label="Chat-i bağla">×</button>
+      </div>
+      <p class="chat-notice">Buradakı mesajlar Discord community kanalında da görünür.</p>
+      <div class="chat-messages" id="chat-messages" aria-live="polite" aria-label="Chat mesajları">
+        <div class="chat-welcome"><span>✦</span><strong>Averis community-yə xoş gəlmisən!</strong><p>Söhbətə qoşul və mehriban ol.</p></div>
+      </div>
+      <form class="chat-form" id="chat-form">
+        <label class="visually-hidden" for="chat-name">Adın</label>
+        <input class="chat-name" id="chat-name" maxlength="24" placeholder="Adın" autocomplete="nickname" required>
+        <div class="chat-input-row">
+          <label class="visually-hidden" for="chat-input">Mesajın</label>
+          <input id="chat-input" maxlength="500" placeholder="Mesaj yaz..." autocomplete="off" required>
+          <button type="submit" aria-label="Mesajı göndər">➤</button>
+        </div>
+        <span class="chat-error" id="chat-error" role="status"></span>
+      </form>
+    </section>
+    <div class="chat-backdrop" data-close-chat></div>
+  </body>
+</html>
